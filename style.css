@@ -17,8 +17,7 @@ p {
     z-index: 11;
     background-color: white;
     word-spacing: 3px;
-letter-spacing: 1px;
-    
+    letter-spacing: 1px;
 }
 
 header {
@@ -36,6 +35,11 @@ header {
     bottom: 30px;
     height: 300px;
     width: 100%;
+}
+
+#twitter {
+    color: #0d47a1;
+    cursor: pointer;
 }
 
 #btn {
@@ -61,11 +65,12 @@ header {
     box-sizing: border-box;
     cursor: pointer;
     position: relative;
-    bottom: 140px background-color: #1976d2;
+    bottom: 140px;
+    background-color: #1976d2;
     color: white;
     background: linear-gradient(145deg, #0d47a1, #42a5f5);
     position: relative;
-    bottom: 150px
+    bottom: 150px;
 }
 
 h1 {
