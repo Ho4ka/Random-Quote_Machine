@@ -5,8 +5,6 @@ var str = document.getElementById('placeholder');
 var author = document.getElementById('author');
 var twitter = document.getElementById('twitter');
 var shareToTwitter = 'https://twitter.com/intent/tweet?text=' + $('#placeholder').text() + $('#author').text();
-var facebook = document.getElementById('facebook');
-var shareToFacebook = 'https://www.facebook.com/dialog/share?app_id=145634995501895&display=popup&href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F&redirect_uri=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer';
 var Placeholdervalue;
 
 btn.addEventListener('click', function() {
@@ -33,10 +31,8 @@ btn.addEventListener('click', function() {
 
 });
 
+
+
 twitter.addEventListener('click', function() {
     window.open(shareToTwitter, 'twitter');
-});
-
-facebook.addEventListener('click', function() {
-    window.open(shareToFacebook, 'facebook');
 });
